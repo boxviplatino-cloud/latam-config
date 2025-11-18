@@ -1,0 +1,25 @@
+{
+  "servers": [
+    {
+      "Name": "Tuenti SSH",
+      "ServerIP": "tu-vps-o-host.com",
+      "ServerPort": "22",
+      "ServerUser": "usuario-ssh",
+      "ServerPass": "password-ssh",
+      "SSLPort": "443",
+      "ProxyIP": "proxy.example.com",
+      "ProxyPort": "8080",
+      "SNI": "www.google.com",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf][crlf]",
+      "isSSL": false,
+      "isPayloadSSL": false,
+      "isInject": false,
+      "isDirect": false,
+      "isSlow": false,
+      "isudp": false,
+      "iv2ray": false,
+      "apilatamsrcv2ray": "",
+      "v2rayJson": ""
+    }
+  ]
+}
